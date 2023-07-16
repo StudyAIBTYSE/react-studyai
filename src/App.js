@@ -102,7 +102,7 @@ console.log(uniqueTitles)
 
      
       <section className="main">
-      {!currentTitle && <h1>
+      {!currentTitle && <h1 id="heading">
           StudyAI
         </h1>}
         <ul className="feed">
