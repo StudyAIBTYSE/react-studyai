@@ -20,7 +20,8 @@
     "dev": "concurrently --kill-others \"npm run start:frontend\" \"npm run start:backend\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "ec2-dev": "CI=true;export CI; npm run dev"
   },
   "eslintConfig": {
     "extends": [
