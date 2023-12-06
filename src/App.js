@@ -42,7 +42,7 @@ const getMessages = async () => {
     }
   }
   try {
-      const response = await fetch ('http://localhost:8000/completions', options)
+      const response = await fetch ('https://redesigned-yodel-ggwp9gj659xh655-8000.app.github.dev/completions', options)
       const data = await response.json()
       setMessage(data.choices[0].message)
   } catch (error) {
